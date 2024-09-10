@@ -20,7 +20,7 @@ update_text_button = tk.Button(
     app, text="Calculate Text Count", command=calculate_text_count
 )
 update_text_button.pack()
-result_label = tk.Label(app, text="")
+result_label = tk.Label(app, text="Characters: 0\nWords: 0\nLines: 0")
 result_label.pack()
 
 text_area.focus()
