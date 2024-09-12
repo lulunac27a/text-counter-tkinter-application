@@ -28,4 +28,4 @@ $result_label = TkLabel.new(app) do
 end
 
 $text_area.focus() # focus on text area
-app.mainloop() # run the program loop
+Tk.mainloop # run the program loop
