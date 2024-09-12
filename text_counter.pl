@@ -20,4 +20,5 @@ my $update_text_button = $app->Button(-text => "Calculate Text Count", -command 
 
 my $result_label = $app->Label(-text => "Characters: 0\nWords: 0\nLines: 0")->pack; # text counter result label
 
+$text_area->focus(); # focus on text area
 MainLoop; # run the program loop
