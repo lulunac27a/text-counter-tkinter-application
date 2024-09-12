@@ -1,6 +1,6 @@
+use Tk;
 use strict;
 use warnings;
-use Tk;
 
 my $app = MainWindow->new;
 
