@@ -1,5 +1,5 @@
-use Tk;
 use strict;
+use Tk;
 
 my $app = MainWindow->new;
 
