@@ -5,7 +5,7 @@ app = tk.Tk()
 app.title("Text Counter Application using Tkinter")
 
 
-def calculate_text_count():
+def calculate_text_count() -> None:
     """Calculates text count based on entered text input.
     chars - Number of characters
     words - Number of words
